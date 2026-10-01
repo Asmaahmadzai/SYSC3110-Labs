@@ -14,6 +14,10 @@ public class AddressBook {
             myBuddies.add(aBuddy);
         }
     }
+    //added method
+    public int getSize() {
+        return myBuddies.size();
+    }
 
     public BuddyInfo removeBuddy(int index) {
         if (index >= 0 && index < myBuddies.size()) {
